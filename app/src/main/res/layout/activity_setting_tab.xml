@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingTab"
+    android:background="#e8e8e8"
+    android:id="@+id/setLayout"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        >
+        <CheckedTextView
+            android:id="@+id/loginCheck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="자동 로그인"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#6a6a6a" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+        <TextView
+            android:id="@+id/changePw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#597759"
+            android:textSize="20sp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="비밀번호 변경"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:paddingTop="11dp"
+        android:paddingBottom="11dp">
+        <TextView
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#DF0101"
+            android:textSize="20sp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="로그아웃"
+            android:textAlignment="center"
+            />
+    </LinearLayout>
+</LinearLayout>
